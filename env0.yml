@@ -5,4 +5,4 @@ deploy:
       after:
         - nslookup git.jfrog.info
         - ifconfig
-        - traceroute git.jfrog.info
+        - ping git.jfrog.info
