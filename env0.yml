@@ -4,3 +4,5 @@ deploy:
     setupVariables:
       after:
         - nslookup git.jfrog.info
+        - ifconfig
+        - telnet git.jfrog.info 22
