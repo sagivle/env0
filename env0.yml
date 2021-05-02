@@ -5,4 +5,4 @@ deploy:
       after:
         - nslookup git.jfrog.info
         - ifconfig
-        - telnet git.jfrog.info 22
+        - ssh git.jfrog.info 22
